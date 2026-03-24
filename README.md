@@ -1,6 +1,6 @@
 # AI Mini Therapist Project
 
-## 🎯 **ORGANIZED PROJECT STRUCTURE:**
+ORGANIZED PROJECT STRUCTURE:
 
 ```
 windsurf-project/
@@ -37,38 +37,37 @@ windsurf-project/
 └── SIMPLE_RELIABLE_THERAPIST.py   ← LEGACY VERSION
 ```
 
-## 🚀 **HOW TO USE:**
+HOW TO USE:
 
-### **🎯 Step 1: Train the Model**
+Step 1: Train the Model
 ```bash
 cd training
 python train_fer2013.py
 ```
 
-### **🎯 Step 2: Run Enhanced Application**
+Step 2: Run Enhanced Application
 ```bash
 cd ../application
 python enhanced_ai_therapist.py
 ```
 
-### **🎯 Alternative: Run Legacy Version**
+Alternative: Run Legacy Version
 ```bash
 python SIMPLE_RELIABLE_THERAPIST.py
 ```
+ORGANIZED MODULES:
 
-## 🎯 **ORGANIZED MODULES:**
-
-### **✅ Training Module (`training/`)**
+### ** Training Module (`training/`)**
 - **`train_fer2013.py`** - FER2013 training script
 - **`dataset/`** - FER2013 dataset structure
 - **Creates trained model** - Saves to `../models/`
 
-### **✅ Application Module (`application/`)**
+### ** Application Module (`application/`)**
 - **`enhanced_ai_therapist.py`** - Enhanced AI Mini Therapist
 - **Uses trained model** - Loads from `../models/`
 - **Enhanced features** - Real-time analytics, break reminders, focus monitoring
 
-### **✅ Enhanced Features:**
+### ** Enhanced Features:**
 - **Real-time analytics** - Stress trends and charts
 - **Break reminders** - 30-minute intervals
 - **Focus monitoring** - Productivity tracking
@@ -76,15 +75,15 @@ python SIMPLE_RELIABLE_THERAPIST.py
 - **Posture monitoring** - Well-being tracking
 - **Enhanced alerts** - Comprehensive notifications
 
-## 🎯 **WHAT TO TELL YOUR GUIDE:**
+## WHAT TO TELL YOUR GUIDE:
 
-### **✅ "Yes, I have only ONE main file"**
+### **"Yes, I have only ONE main file"**
 - **`SIMPLE_RELIABLE_THERAPIST.py`** contains the entire application
 - **All features included** - Camera, alerts, monitoring, GUI
 - **Self-contained** - No other files needed to run
 - **Professional application** - Complete AI Mini Therapist
 
-### **✅ "The single file includes:"**
+### **"The single file includes:"**
 - **Real camera emotion detection**
 - **Desktop stress alerts** (popup while working in other apps)
 - **Real-time activity monitoring** (windows, tabs, websites)
@@ -92,40 +91,40 @@ python SIMPLE_RELIABLE_THERAPIST.py
 - **AI assistant chat** (interactive support)
 - **Professional GUI interface** (clean, simple design)
 
-### **✅ "Technical details:"**
+### **"Technical details:"**
 - **Python application** with OpenCV for camera
 - **Tkinter GUI** for professional interface
 - **Threading** for real-time monitoring
 - **CSV/JSON logging** for session reports
 - **Robust error handling** - crash-free design
 
-## 🎯 **DEMONSTRATION:**
+##  **DEMONSTRATION:**
 
-### **✅ "I can run it with one command:"**
+### ** "I can run it with one command:"**
 ```bash
 python SIMPLE_RELIABLE_THERAPIST.py
 ```
 
-### **✅ "It opens a professional window with:"**
+### ** "It opens a professional window with:"**
 - Live camera feed with face detection
 - Real-time emotion recognition
 - Activity monitoring dashboard
 - Desktop stress alerts
 - Interactive AI assistant
 
-## 🎯 **PROJECT COMPLETENESS:**
+##  **PROJECT COMPLETENESS:**
 
-### **✅ "This is a complete, professional application:"**
+### **"This is a complete, professional application:"**
 - **Single file deployment** - Easy to distribute
 - **All requested features** - Working perfectly
 - **Professional design** - Clean interface
 - **Robust architecture** - Error-free operation
 
-## 🎯 **ANSWER FOR YOUR GUIDE:**
+##  **ANSWER FOR YOUR GUIDE:**
 
-### **✅ "Yes, I have ONE main file that runs the entire project."**
+### ** "Yes, I have ONE main file that runs the entire project."**
 - **File:** `SIMPLE_RELIABLE_THERAPIST.py`
 - **Command:** `python SIMPLE_RELIABLE_THERAPIST.py`
 - **Result:** Complete AI Mini Therapist application
 
-**🎉 YOUR PROJECT IS READY - ONE FILE, COMPLETE APPLICATION!**
+** YOUR PROJECT IS READY - ONE FILE, COMPLETE APPLICATION!**
